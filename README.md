@@ -2,6 +2,22 @@
 
 Based on tutorial at : https://santrikoding.com/tutorial-set/tutorial-expressjs-restful-api
 
+#### setup database
+
+create new mysql database with name "db_expressjs_simple_restapi" or any name you want. database config is in config/database.js file.
+
+create table `posts`
+
+```sql
+CREATE TABLE `posts` (
+  `id` int(11) NOT NULL,
+  `title` varchar(255) NOT NULL,
+  `content` text NOT NULL
+);
+ALTER TABLE `posts`
+  ADD PRIMARY KEY (`id`);
+```
+
 #### install dependencies
 
 ```
