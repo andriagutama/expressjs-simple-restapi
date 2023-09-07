@@ -48,6 +48,21 @@ server will run on http://localhost:3000
 GET /api/posts
 ```
 
+response
+```javascript
+{
+    "status": true,
+    "message": "List Data Posts",
+    "data": [
+        {
+            "id": 1,
+            "title": "Tutorial Express.js Restful API",
+            "content": "Belajar Membuat CRUD Restful API Dengan Express.js, Dimana Materi Dijelaskan Secara Terstruktur Step By Step https://santrikoding.com/tutorial-set/tutorial-expressjs-restful-api"
+        }
+    ]
+}
+```
+
 #### create post
 
 ```http
@@ -91,6 +106,27 @@ success response
 GET /api/posts/:id
 ```
 
+failed response
+```javascript
+{
+    "status": false,
+    "message": "Data not found"
+}
+```
+
+success response
+```javascript
+{
+    "status": true,
+    "message": "Post data",
+    "data": {
+        "id": 1,
+        "title": "Tutorial Express.js Restful API",
+        "content": "Belajar Membuat CRUD Restful API Dengan Express.js, Dimana Materi Dijelaskan Secara Terstruktur Step By Step https://santrikoding.com/tutorial-set/tutorial-expressjs-restful-api"
+    }
+}
+```
+
 #### update post
 
 ```http
@@ -102,8 +138,42 @@ PATCH /api/posts/update/:id
 }
 ```
 
+failed response
+```javascript
+{
+    "errors": [
+        {
+            "msg": "Invalid value",
+            "param": "title",
+            "location": "body"
+        },
+        {
+            "msg": "Invalid value",
+            "param": "content",
+            "location": "body"
+        }
+    ]
+}
+```
+
+success response
+```javascript
+{
+    "status": true,
+    "message": "Post updated"
+}
+```
+
 #### delete post
 
 ```http
 DELETE /api/posts/delete/:id
+```
+
+success response
+```javascript
+{
+    "status": true,
+    "message": "Post deleted"
+}
 ```
