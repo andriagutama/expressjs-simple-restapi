@@ -24,7 +24,7 @@ ALTER TABLE `posts`
 npm install
 ```
 
-##### install nodemon
+#### install nodemon
 
 ```
 npm install -g nodemon
@@ -52,6 +52,32 @@ POST /api/posts/store
 {
     "title" : "Tutorial Express.js Restful API",
     "content" : "Belajar Membuat CRUD Restful API Dengan Express.js, Dimana Materi Dijelaskan Secara Terstruktur Step By Step https://santrikoding.com/tutorial-set/tutorial-expressjs-restful-api"
+}
+```
+
+failed response
+```javascript
+{
+    "errors": [
+        {
+            "msg": "Invalid value",
+            "param": "title",
+            "location": "body"
+        },
+        {
+            "msg": "Invalid value",
+            "param": "content",
+            "location": "body"
+        }
+    ]
+}
+```
+
+success response
+```javascript
+{
+    "status": true,
+    "message": "Post added"
 }
 ```
 
