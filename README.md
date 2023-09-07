@@ -6,7 +6,7 @@ https://github.com/andriagutama/expressjs-reactjs-simple-restapi
 
 Based on tutorial at : https://santrikoding.com/tutorial-set/tutorial-expressjs-restful-api
 
-#### setup database
+## setup database
 
 create new mysql database with name "db_expressjs_simple_restapi" or any name you want. database config is in config/database.js file.
 
@@ -22,19 +22,19 @@ ALTER TABLE `posts`
   ADD PRIMARY KEY (`id`);
 ```
 
-#### install dependencies
+## install dependencies
 
 ```
 npm install
 ```
 
-#### install nodemon
+## install nodemon
 
 ```
 npm install -g nodemon
 ```
 
-#### run application
+## run application
 
 ```
 nodemon npm start
@@ -42,7 +42,7 @@ nodemon npm start
 
 server will run on http://localhost:3000
 
-#### get all post
+## get all post
 
 ```http
 GET /api/posts
@@ -63,7 +63,7 @@ response
 }
 ```
 
-#### create post
+## create post
 
 ```http
 POST /api/posts/store
@@ -100,7 +100,7 @@ success response
 }
 ```
 
-#### get post
+## get post
 
 ```http
 GET /api/posts/:id
@@ -127,7 +127,7 @@ success response
 }
 ```
 
-#### update post
+## update post
 
 ```http
 PATCH /api/posts/update/:id
@@ -164,7 +164,7 @@ success response
 }
 ```
 
-#### delete post
+## delete post
 
 ```http
 DELETE /api/posts/delete/:id
