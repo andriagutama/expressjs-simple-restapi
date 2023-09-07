@@ -1,5 +1,8 @@
 # ExpressJS Simple REST API
 
+This repository is for backend. Frontend can be found in :
+https://github.com/andriagutama/expressjs-reactjs-simple-restapi
+
 Based on tutorial at : https://santrikoding.com/tutorial-set/tutorial-expressjs-restful-api
 
 #### setup database
