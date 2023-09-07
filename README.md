@@ -57,7 +57,7 @@ response
         {
             "id": 1,
             "title": "Tutorial Express.js Restful API",
-            "content": "Belajar Membuat CRUD Restful API Dengan Express.js, Dimana Materi Dijelaskan Secara Terstruktur Step By Step https://santrikoding.com/tutorial-set/tutorial-expressjs-restful-api"
+            "content": "Belajar Membuat CRUD Restful API Dengan Express.js, Dimana Materi Dijelaskan Secara Terstruktur Step By Step"
         }
     ]
 }
@@ -70,7 +70,7 @@ POST /api/posts/store
 
 {
     "title" : "Tutorial Express.js Restful API",
-    "content" : "Belajar Membuat CRUD Restful API Dengan Express.js, Dimana Materi Dijelaskan Secara Terstruktur Step By Step https://santrikoding.com/tutorial-set/tutorial-expressjs-restful-api"
+    "content" : "Belajar Membuat CRUD Restful API Dengan Express.js, Dimana Materi Dijelaskan Secara Terstruktur Step By Step"
 }
 ```
 
@@ -122,7 +122,7 @@ success response
     "data": {
         "id": 1,
         "title": "Tutorial Express.js Restful API",
-        "content": "Belajar Membuat CRUD Restful API Dengan Express.js, Dimana Materi Dijelaskan Secara Terstruktur Step By Step https://santrikoding.com/tutorial-set/tutorial-expressjs-restful-api"
+        "content": "Belajar Membuat CRUD Restful API Dengan Express.js, Dimana Materi Dijelaskan Secara Terstruktur Step By Step"
     }
 }
 ```
@@ -134,7 +134,7 @@ PATCH /api/posts/update/:id
 
 {
     "title" : "Tutorial Express.js Restful API",
-    "content" : "Belajar Membuat CRUD Restful API Dengan Express.js, Dimana Materi Dijelaskan Secara Terstruktur Step By Step https://santrikoding.com/tutorial-set/tutorial-expressjs-restful-api"
+    "content" : "Belajar Membuat CRUD Restful API Dengan Express.js, Dimana Materi Dijelaskan Secara Terstruktur Step By Step"
 }
 ```
 
